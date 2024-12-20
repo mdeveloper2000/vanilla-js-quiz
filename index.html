@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body onload="readJson()">
+    <div class="container">
+        <h1 id="title" class="title"></h1>
+        <h2 id="category"></h2>
+        <div id="progress">
+            <div id="progressbar"></div>
+        </div>
+        <div id="questions">
+            <div class="row">                
+                <div id="question" class="question">?</div>
+            </div>
+            <div class="row">
+                <div class="label">1</div>
+                <div id="answer1" class="answer">?</div>
+            </div>
+            <div class="row">
+                <div class="label">2</div>
+                <div id="answer2" class="answer">?</div>
+            </div>
+            <div class="row">
+                <div class="label">3</div>
+                <div id="answer3" class="answer">?</div>
+            </div>
+            <div class="row">
+                <div class="label">4</div>
+                <div id="answer4" class="answer">?</div>
+            </div>            
+            <div>                
+                <div id="status"></div>
+                <div id="timebar"></div>
+            </div>            
+        </div>
+        <div id="results">
+            <div class="text"></div>
+            <div class="percentage"></div>
+            <button id="restart">Reiniciar</button>
+        </div>
+    </div>
+    <div class="skeleton">
+        <div class="title" id="appname"></div>
+        <button id="start">Iniciar</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
